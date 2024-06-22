@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>FS0058</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="SetForm.Mixed.Rename.fs" />
+    <Compile Include="SetForm.Mixed.fs" />
+    <Compile Include="SetForm.Stst.fs" />
+    <Compile Include="SetForm.Oo.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
